@@ -1,10 +1,10 @@
 {
-  "name": "Reveal Deleted FB Messages",
+  "name": "TRIDSN FB Messages",
   "description": "Xem lại tin nhắn đã gỡ trên fb",
   "version": "0.0.1",
   "manifest_version": 2,
   "browser_action": {
-    "default_title": "Reveal Deleted FB Message",
+    "default_title": "TRIDSN FB Message",
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
