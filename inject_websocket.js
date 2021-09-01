@@ -32,7 +32,7 @@ const rvdfmSendDeletedMsgToContentJs = (msg) => {
 };
 
 (function () {
-  console.log("Extension RVDFM - Xem Tin Nhắn Bị Gỡ Trên FB đã BẬT");
+  console.log("Extension TRIDSN - Xem Tin Nhắn Bị Gỡ Trên FB đã BẬT");
 
   rvdfm_all_msgs = JSON.parse(localStorage.rvdfm_all_msgs || "[]");
   console.log(
