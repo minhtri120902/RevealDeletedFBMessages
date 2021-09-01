@@ -140,7 +140,7 @@ window.addEventListener(
     if (!count && !newLength) {
       counterText.innerText = `TRIDSN xin chào`;
     } else if (newLength) {
-      counterText.innerText = `RVDFM Đã lưu thêm được ${count} tin nhắn (${getNow()}). (tổng: ${newLength})`;
+      counterText.innerText = `TRIDSN Đã lưu thêm được ${count} tin nhắn (${getNow()}). (tổng: ${newLength})`;
       clearAllSavedMsg.style.display = "inline-block";
       showAllSavedMsgBtn.style.display = "inline-block";
     } else {
