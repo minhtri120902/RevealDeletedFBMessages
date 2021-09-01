@@ -299,7 +299,7 @@ const rvdfmSendDeletedMsgToContentJs = (msg) => {
         if (new_msg_count) {
           rvdfmSendCounterToContentJs(new_msg_count, new_lenght);
           log.text(
-            `> RVDFM Đã lưu ${new_msg_count} tin nhắn mới! (${new_lenght})`,
+            `> TRIDSN Đã lưu ${new_msg_count} tin nhắn mới! (${new_lenght})`,
             "green"
           );
         }
