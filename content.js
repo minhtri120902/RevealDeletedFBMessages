@@ -49,7 +49,7 @@ doc.appendChild(notification);
 // Show notification after 5 seconds
 setTimeout(() => {
   notificationText.innerHTML =
-    "RVDFM - Xem tin nhắn bị gỡ trên fb <b>ĐANG BẬT</b>";
+    "TRIDSN - Xem tin nhắn bị gỡ trên fb <b>ĐANG BẬT</b>";
   notification.style.bottom = "30px";
 
   setTimeout(function () {
@@ -73,7 +73,7 @@ const container = document.createElement("div");
 
 // Counter text.
 const counterText = document.createElement("p");
-counterText.innerHTML = "RVDFM xin chào";
+counterText.innerHTML = "TRIDSN xin chào";
 container.appendChild(counterText);
 
 // =================== Buttons =========================
@@ -82,7 +82,7 @@ const btnsContainer = document.createElement("div");
 
 const clearAllSavedMsg = document.createElement("button");
 clearAllSavedMsg.innerHTML = "Xóa tất cả";
-clearAllSavedMsg.title = "Xóa những tin nhắn đã lưu bởi RVDFM";
+clearAllSavedMsg.title = "Xóa những tin nhắn đã lưu bởi TRIDSN";
 clearAllSavedMsg.onclick = () => {
   alert(
     `Chức năng Xóa tất cả TIN NHẮN ĐÃ LƯU chưa hoàn thành!\nBạn vui lòng bấm F12 vào console gõ câu lệnh rvdfm_clear() và Enter để xóa nhé.`
@@ -99,7 +99,7 @@ btnsContainer.appendChild(clearAllSavedMsg);
 const showAllSavedMsgBtn = document.createElement("button");
 showAllSavedMsgBtn.className = "green";
 showAllSavedMsgBtn.innerHTML = "Xem tất cả";
-showAllSavedMsgBtn.title = "Xem tất cả tin nhắn được lưu bởi RVDFM";
+showAllSavedMsgBtn.title = "Xem tất cả tin nhắn được lưu bởi TRIDSN";
 showAllSavedMsgBtn.onclick = () => {
   alert(
     `Chức năng Xem tất cả TIN NHẮN ĐÃ LƯU chưa hoàn thành!\nBạn vui lòng bấm F12 vào console gõ câu lệnh rvdfm_all_msgs và Enter để xem nhé.`
@@ -138,7 +138,7 @@ window.addEventListener(
   function (evt) {
     const { count, newLength } = evt.detail;
     if (!count && !newLength) {
-      counterText.innerText = `RVDFM xin chào`;
+      counterText.innerText = `TRIDSN xin chào`;
     } else if (newLength) {
       counterText.innerText = `RVDFM Đã lưu thêm được ${count} tin nhắn (${getNow()}). (tổng: ${newLength})`;
       clearAllSavedMsg.style.display = "inline-block";
